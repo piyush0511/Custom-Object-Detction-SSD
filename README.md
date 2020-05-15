@@ -105,7 +105,7 @@ Trained check point is converted to .protobuf and .config file
 !python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/ssd_mobilenet_v1_pets.config --trained_checkpoint_prefix training/model.ckpt-11018 --output_directory prod_graph
 ```
 
-##Output
+## Output
 You can run the inference by running this command
 
 ```
