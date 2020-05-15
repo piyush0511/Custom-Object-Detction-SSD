@@ -1,0 +1,9 @@
+Q&A
+
+1. Anchors are required when a single feature cell has multiple objects with same midpoint. Without an anchor box, our model will detect only one object and ignore rest of them. Anchor boxes with various shapes will help us detect all of them.
+
+2. Since all of our objects in test images are not overlaping, we could use 1 anchor box, but according to SSD official paper it is advisable to use minimum 5 anchor boxes per feature map.
+
+you can download 
+train.record from https://drive.google.com/open?id=1-3ZkHfq1hDXtuasGW-0moLnKt7ciThQo
+test.record from https://drive.google.com/open?id=1-2l-YUNEibORqPXMANGdPyUL_vTPNIcl
