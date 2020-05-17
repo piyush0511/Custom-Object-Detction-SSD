@@ -1,4 +1,4 @@
-# Project Title
+# Custom-Object-Detction-SSD
 
 FMCG(Fast-Moving Consumer Goods) brands require insights into
 retail shelves to help them improve their sales. One such insight comes
