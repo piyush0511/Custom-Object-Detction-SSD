@@ -111,7 +111,7 @@ You can run the inference by running this command
 ```
 !python inference.py
 ```
-Use this if you want to visualize the results
+Use this if you want to visualize the results:
 
 ```
 left = detection[3] * cols
