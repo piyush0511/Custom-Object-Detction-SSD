@@ -23,7 +23,7 @@ Installation
 
 ### Installing
 
-Download the object detection model
+Download the object detection model from tensorflow
 
 ```
 !git clone https://github.com/tensorflow/models.git
