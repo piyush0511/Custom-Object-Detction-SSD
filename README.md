@@ -63,7 +63,7 @@ imagePaths1 = '/content/ProductImagesFromShelves'
 imagePaths2 = '/content/ShelfImages/train' # or /test
 csv_list=[]
 
-for b in 0,1,2,3,4,5,6,7,8,9,10:
+for b in range(0,11):
   for file in os.listdir(f"{imagePaths1}/{b}"):	
     try:
       x=file.split(os.path.sep)[-1]
